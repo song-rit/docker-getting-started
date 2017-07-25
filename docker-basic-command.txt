@@ -1,0 +1,44 @@
+#Pull image 
+docker pull <repository>||<image_name>
+
+#Run container 
+docker run <image_name>
+*option 
+-i => ?
+-t => ?
+-p <port_in:port_out> =>
+
+#View list docker iamges
+docker images
+
+#View Process docker
+docker ps 
+*option 
+-a => ?
+-q => ?
+
+#Stop container
+docker stop <container_id>
+
+#Remove container
+docker rm <container_id>||<container_name>
+
+#Remove all containers
+docker rm $(docker ps -a -q)
+
+#Remove image 
+docker rmi <image_id>||<name:tag>
+
+#Remove all images
+docker rmi $(docker images -q)
+
+#Volumn
+
+
+
+
+
+
+
+
+
