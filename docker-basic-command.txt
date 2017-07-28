@@ -11,7 +11,7 @@ docker run <image_name>
 #View list docker iamges
 docker images
 
-#View Process docker
+#View list container
 docker ps 
 *option 
 -a => ?
@@ -19,6 +19,15 @@ docker ps
 
 #Stop container
 docker stop <container_id>
+
+#Start container 
+docker start <container_id>
+
+#Restart container
+docker restart <container_id>
+
+#Process docker 
+docker top <container_id>||<container_name>
 
 #Remove container
 docker rm <container_id>||<container_name>
