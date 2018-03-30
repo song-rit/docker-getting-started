@@ -1,0 +1,4 @@
+apache2:
+ build: .
+ ports:
+ - "9999:80"
