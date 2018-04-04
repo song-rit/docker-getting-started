@@ -1,0 +1,2 @@
+docker run -d -p 8888:80 my-nodejs:v1 pm2-runtime /var/www/app/app.js
+docker-commpose up

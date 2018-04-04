@@ -1,0 +1,5 @@
+nodejs:
+ build: .
+ command: pm2-runtime app.js
+ ports:
+ - "8888:80"
